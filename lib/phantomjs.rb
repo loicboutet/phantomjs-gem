@@ -10,7 +10,7 @@ module Phantomjs
     end
 
     def base_dir
-       @base_dir ||= File.join(File.expand_path('~'), '.phantomjs', version)
+       @base_dir ||= File.join(File.expand_path('~'), 'app', 'vendor', '.phantomjs', version)
     end
 
     def base_dir=(dir)
